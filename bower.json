@@ -1,0 +1,21 @@
+{
+  "name": "wings-frontend",
+  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon".
+  "version": "1.0.0",
+  "authors": [
+    "candidosales <candidosg@gmail.com>"
+  ],
+  "description": "Front-end Poty Shopping",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.3.0",
+    "bourbon": "~4.0.2"
+  }
+}
