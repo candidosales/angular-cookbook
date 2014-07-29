@@ -1,6 +1,6 @@
 {
   "name": "wings-frontend",
-  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon".
+  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon",
   "version": "1.0.0",
   "authors": [
     "candidosales <candidosg@gmail.com>"
