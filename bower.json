@@ -1,5 +1,6 @@
 {
   "name": "wings-frontend",
+  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon",
   "version": "1.0.0",
   "authors": [
     "candidosales <candidosg@gmail.com>"
@@ -14,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.3.0",
-    "bourbon": "~4.0.2"
+    "foundation": "~5.4.5",
+    "bourbon": "3.2.x"
   }
 }
