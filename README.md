@@ -5,7 +5,7 @@ Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon
 
 
 Após ter feito o download ou clone do repositório faça os seguintes passos:
- 
+
 **1°** Instale todas as dependências do Grunt
 
 ```
@@ -25,4 +25,9 @@ bower install --save
 **4°** Agora é só executar o Grunt =]
 ```
 grunt
+```
+
+**5°** Atualizando todas as libs do Grunt/Node
+```
+npm-check-updates -u
 ```

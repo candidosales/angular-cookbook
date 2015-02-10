@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.4.5",
-    "bourbon": "3.2.x"
+    "foundation": "~5.5.0",
+    "bourbon": "4.2.x"
   }
 }

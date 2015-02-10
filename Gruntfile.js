@@ -1,9 +1,12 @@
 module.exports = function(grunt) {
 
-    // 1. load all grunt tasks matching the `grunt-*` pattern
+    // 1. Time how long tasks take
+    require('time-grunt')(grunt);
+
+    // 2. load all grunt tasks matching the `grunt-*` pattern
     require('load-grunt-tasks')(grunt);
 
-    // 2. All configuration goes here
+    // 3. All configuration goes here
     grunt.initConfig({
         sass: {
             dist: {
