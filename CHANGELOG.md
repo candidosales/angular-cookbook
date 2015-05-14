@@ -1,5 +1,9 @@
 # Frontend Changelog
 
+### Frontend 1.3.0 (14 de Maio de 2015)
+* Atualizado libs do Node;
+* Estrutura padrão de modularização do front-end CSS;
+
 ### Frontend 1.2.0 (10 de Fevereiro de 2015)
 * Atualizado o Foundation#5.5.1 e o Bourbon#4.2.0 - Ambos compatíveis com a versão 3.4 do SASS;
 * Acrescido a lib npm-check-updates para checar automaticamente novas atualizações nos módulos do node/grunt;

@@ -1,3 +1,10 @@
+// ==========================================================================
+//
+// Upload all SASS
+//
+// ==========================================================================
+
+
 // Vendor
 // All third party SASS
 // ==========================================================================
@@ -6,3 +13,24 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon", // Framework for SASS com mixins
 		"../../bower_components/foundation/scss/normalize",
 		"../../bower_components/foundation/scss/foundation"; //Framework Responsive Web Design
+
+
+// Core
+// ==========================================================================
+
+// Global variables
+@import "core/settings",
+    		"core/base", // Style tags
+				"core/typography", // Typography or @font-face
+				"core/layout"; // Set the common layout of pages
+
+
+				// Helpers
+				// ==========================================================================
+
+				// Mixins, functions - underscore when not generate CSS
+
+				// Module
+				// ==========================================================================
+
+				// Design units
