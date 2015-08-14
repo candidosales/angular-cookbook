@@ -1,5 +1,9 @@
 # Frontend Changelog
 
+### Frontend 1.4.0 (14 de Agosto de 2015)
+* Removido Foundation;
+* Acréscido Angular e Bootstrap;
+
 ### Frontend 1.3.0 (14 de Maio de 2015)
 * Atualizado libs do Node;
 * Estrutura padrão de modularização do front-end CSS;

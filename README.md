@@ -1,4 +1,4 @@
-Frontend Wings
+Frontend Vikstar
 ==============
 
 Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon
