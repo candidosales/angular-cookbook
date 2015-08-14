@@ -30,7 +30,8 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-
+# SASS
+.sass-cache
 
 # Created by http://www.gitignore.io
 

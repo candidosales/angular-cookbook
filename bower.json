@@ -1,11 +1,10 @@
 {
-  "name": "wings-frontend",
-  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon",
+  "name": "vikstar-frontend",
+  "description": "Stack para projetos frontend com Bower, Grunt, Bootstrap, Angular e Bourbon",
   "version": "1.0.0",
   "authors": [
     "candidosales <candidosg@gmail.com>"
   ],
-  "description": "Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -15,7 +14,9 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.5.2",
-    "bourbon": "~4.2.2"
+    "bourbon": "~4.2.2",
+    "bootstrap-sass-official": "~3.3.5",
+    "angular-bootstrap": "~0.13.3",
+    "angular-ui-router": "~0.2.15"
   }
 }
