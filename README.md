@@ -1,7 +1,7 @@
-Frontend Vikstar
+Frontend Angular
 ==============
 
-Stack para projetos frontend com Bower, Grunt, Foundation e Bourbon
+Stack para projetos frontend com Bower, Grunt, Angular e Bourbon
 
 
 Após ter feito o download ou clone do repositório faça os seguintes passos:
