@@ -1,7 +1,7 @@
 Frontend Angular
 ==============
 
-Stack para projetos frontend com Bower, Grunt, Angular e Bourbon
+Stack para projetos frontend com Bower, Grunt, Angular, Bootstrap e Bourbon
 
 
 Após ter feito o download ou clone do repositório faça os seguintes passos:

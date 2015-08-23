@@ -1,5 +1,5 @@
 {
-  "name": "vikstar-frontend",
+  "name": "frontend-angular",
   "version": "1.0.0",
   "description": "Stack para projetos frontend com Bower, Grunt, Bootstrap, Angular e Bourbon",
   "main": "Gruntfile.js",
