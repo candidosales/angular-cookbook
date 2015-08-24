@@ -30,24 +30,24 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li ui-sref-active="active"><a ui-sref="admin.painel">Painel</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rafael Lins <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Perfil</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a ui-sref="admin.arvoreMotivos">Árvore de motivos</a></li>
-              <li><a ui-sref="admin.importacaoDados">Importação de dados</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Sair</a></li>
-            </ul>
-          </li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Capitulos<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="admin.cap1">Capítulo 1</a></li>
+            <li><a ui-sref="admin.cap2">Capitulo 2</a></li>
+            <li><a ui-sref="admin.cap5">Capitulo 5</a></li>
+            <li><a ui-sref="admin.cap6">Capitulo 6</a></li>
+            <li><a ui-sref="admin.cap7">Capitulo 7</a></li>
+            <li><a ui-sref="admin.cap9">Capitulo 9</a></li>
+          </ul>
+        </li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-  <div ui-view></div>
+  <div class="main">
+    <div ui-view></div>
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>

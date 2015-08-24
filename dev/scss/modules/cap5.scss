@@ -1,0 +1,11 @@
+button[confirmed-click] {
+position: relative;
+}
+button[confirmed-click] .box {
+position: absolute;
+border: 1px solid #ccc;
+width: 100px;
+background-color: #f9f9f9;
+top: 0;
+right: -100px;
+}

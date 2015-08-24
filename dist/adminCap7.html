@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Digital clock</h3>
+    </div>
+    <div class="panel-body">
+      <form name="form" novalidate>
+        <label for="">Login: </label>
+        <input type="text" ng-model="login" required/>
+        <button ng-disabled="!(form.$dirty && form.$valid)">Save</button>
+      </form>
+    </div>
+  </div>
+</div>

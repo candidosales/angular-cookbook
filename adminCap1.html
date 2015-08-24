@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Clock</h3>
+    </div>
+    <div class="panel-body">
+      <svg width="200" height="200">
+        <g>
+          <circle style="stroke: #ccc; fill: #fff;" cx="100" cy="100" r="100" />
+          <line x1="100" y1="100" x2="100" y2="50" style="stroke-width: 5px; stroke: #333;" ng-attr-transform="rotate({{hourRotation}} 100 100)"></line>
+
+          <line x1="100" y1="100" x2="100" y2="20" style="stroke-width: 3px; stroke: #888;" ng-attr-transform="rotate({{minuteRotation}} 100 100)"></line>
+
+          <line x1="100" y1="100" x2="100" y2="5" style="stroke-width: 2px; stroke: #bb0000;" ng-attr-transform="rotate({{secondRotation}} 100 100)"></line>
+
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>

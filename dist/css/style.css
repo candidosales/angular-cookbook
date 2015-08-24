@@ -6058,3 +6058,23 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.main .container {
+  padding-top: 80px; }
+
+button[confirmed-click] {
+  position: relative; }
+
+button[confirmed-click] .box {
+  position: absolute;
+  border: 1px solid #ccc;
+  width: 100px;
+  background-color: #f9f9f9;
+  top: 0;
+  right: -100px; }
+
+input.ng-invalid.ng-dirty {
+  background-color: #ffc4d0; }
+
+input.ng-valid.ng-dirty {
+  background-color: #d8ffd0; }

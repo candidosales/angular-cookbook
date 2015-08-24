@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Confirm box</h3>
+    </div>
+    <div class="panel-body">
+      <table>
+        <tr ng-repeat="task in tasks">
+          <td>{{task}}</td>
+          <td>
+            <button confirmed-click="removeTask($index)">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
